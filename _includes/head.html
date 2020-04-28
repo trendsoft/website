@@ -1,0 +1,24 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {%- seo -%}
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico">
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="{{ "/assets/vendor/font-awesome/css/all.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/vendor/hs-mega-menu/dist/hs-mega-menu.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/vendor/dzsparallaxer/dzsparallaxer.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/vendor/cubeportfolio/css/cubeportfolio.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/vendor/aos/dist/aos.css" | relative_url }}">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>
